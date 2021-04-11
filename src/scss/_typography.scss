@@ -1,0 +1,31 @@
+@import "variable";
+body{
+    font-family: 'Poppins',
+    sans-serif;
+}
+/** all heading **/
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+h3{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
