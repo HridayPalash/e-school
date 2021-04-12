@@ -2,3 +2,48 @@
 @import "variable";
 @import "typography";
 @import "navbar";
+/** Bannner Section **/
+.banner {
+    background: $bannerColor;
+    margin-top: 72px;
+    .banner-content {
+        padding: 20px 0px;
+        .p-red {
+            color: #FD511A;
+        }
+        span{
+            color: $btnColor;
+        }
+        a{
+            background: $btnColor;
+            color: $white;
+            padding: 12px 36px;
+            text-decoration: none;
+            border-radius: 33px;
+        }
+    }
+    .div-img{
+        padding: 20px 0px;
+    }
+}
+//Courses Section
+.courses{
+    .card{
+        background: $bannerColor;
+        transition: all 1s ease-in;
+        border:none;
+        border: 20px;
+        cursor: pointer;
+        .card-img{
+            img{
+                width: 66px;
+                height: 85px;
+                margin-top: 30px;
+            }
+        }
+        &:hover{
+            background: $white;
+            box-shadow: -2px 8px 34px -6px rgba(0, 0, 0, 0.75);
+        }
+    }
+}

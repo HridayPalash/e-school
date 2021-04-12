@@ -105,19 +105,21 @@ a {
     body .navbar .link-items {
       position: absolute;
       right: 0;
-      top: 55px;
+      top: 68px;
       height: 100vh;
       width: 100%;
       display: flex;
       justify-content: space-around;
       align-items: space-around;
-      background: #F0FFF0;
+      background: #21B573;
       transform: translateX(100%);
       transition: transform 0.5s ease-in; }
       body .navbar .link-items .navbar-nav {
         margin-top: 80px; }
         body .navbar .link-items .navbar-nav .nav-item {
           opacity: 0; }
+          body .navbar .link-items .navbar-nav .nav-item .nav-link {
+            color: #fff; }
     body .navbar .burger {
       display: block; }
     body .navbar .nav-active {
@@ -146,3 +148,36 @@ a {
 
 .cross-burger .line3 {
   transform: rotate(45deg) translate(-5px, -6px); }
+
+/** Bannner Section **/
+.banner {
+  background: #F0FFF0;
+  margin-top: 72px; }
+  .banner .banner-content {
+    padding: 20px 0px; }
+    .banner .banner-content .p-red {
+      color: #FD511A; }
+    .banner .banner-content span {
+      color: #21B573; }
+    .banner .banner-content a {
+      background: #21B573;
+      color: #fff;
+      padding: 12px 36px;
+      text-decoration: none;
+      border-radius: 33px; }
+  .banner .div-img {
+    padding: 20px 0px; }
+
+.courses .card {
+  background: #F0FFF0;
+  transition: all 1s ease-in;
+  border: none;
+  border: 20px;
+  cursor: pointer; }
+  .courses .card .card-img img {
+    width: 66px;
+    height: 85px;
+    margin-top: 30px; }
+  .courses .card:hover {
+    background: #fff;
+    box-shadow: -2px 8px 34px -6px rgba(0, 0, 0, 0.75); }
