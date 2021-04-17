@@ -41,9 +41,53 @@
                 margin-top: 30px;
             }
         }
+        p{
+            color: #585859;
+
+        }
         &:hover{
             background: $white;
             box-shadow: -2px 8px 34px -6px rgba(0, 0, 0, 0.75);
+        }
+    }
+}
+// Online Course Secction
+.online-course{
+    h3{
+        color: #413960;
+    }
+    .card{
+        margin: 10px 0px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: -2px 8px 34px -6px rgba(0, 0, 0, 0.75);
+        .card-img {
+            overflow: hidden;
+            &:hover{
+                .img-fluid {
+                    transform: scale(1.5);
+                }
+            }
+            .img-fluid{
+                transition: all 1.5s ease;
+            }
+        }
+        p{
+            color: #585859;
+        }
+        a{
+            text-decoration: none;
+            padding: 8px 28px;
+            background: $btnColor;
+            color: $white;
+            border-radius: 33px;
+        }
+        .d-flex{
+            margin-top: 20px;
+            p{
+                font-size: 14px;
+                font-weight: 500;
+            }
         }
     }
 }

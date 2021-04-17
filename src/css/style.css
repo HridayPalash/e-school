@@ -18,7 +18,8 @@ h3 {
 h4 {
   font-size: 24px;
   font-weight: 500;
-  line-height: 36px; }
+  line-height: 36px;
+  color: #413960; }
 
 p {
   font-size: 16px;
@@ -49,7 +50,8 @@ h3 {
 h4 {
   font-size: 24px;
   font-weight: 500;
-  line-height: 36px; }
+  line-height: 36px;
+  color: #413960; }
 
 p {
   font-size: 16px;
@@ -178,6 +180,36 @@ a {
     width: 66px;
     height: 85px;
     margin-top: 30px; }
+  .courses .card p {
+    color: #585859; }
   .courses .card:hover {
     background: #fff;
     box-shadow: -2px 8px 34px -6px rgba(0, 0, 0, 0.75); }
+
+.online-course h3 {
+  color: #413960; }
+
+.online-course .card {
+  margin: 10px 0px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: -2px 8px 34px -6px rgba(0, 0, 0, 0.75); }
+  .online-course .card .card-img {
+    overflow: hidden; }
+    .online-course .card .card-img:hover .img-fluid {
+      transform: scale(1.5); }
+    .online-course .card .card-img .img-fluid {
+      transition: all 1.5s ease; }
+  .online-course .card p {
+    color: #585859; }
+  .online-course .card a {
+    text-decoration: none;
+    padding: 8px 28px;
+    background: #21B573;
+    color: #fff;
+    border-radius: 33px; }
+  .online-course .card .d-flex {
+    margin-top: 20px; }
+    .online-course .card .d-flex p {
+      font-size: 14px;
+      font-weight: 500; }
